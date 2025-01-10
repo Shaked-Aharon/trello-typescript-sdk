@@ -1,9 +1,16 @@
 {
-  "name": "trello-powerup-typescript",
+  "name": "trello-powerup",
   "version": "1.0.0",
-  "description": "TypeScript library for developing Trello Power-Ups",
+  "description": "A TypeScript SDK for building Trello Power-Ups",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "keywords": ["trello", "power-up", "typescript", "sdk"],
+  "author": "Shaked Aharon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaked-Aharon/trello-typescript-sdk.git"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest",
