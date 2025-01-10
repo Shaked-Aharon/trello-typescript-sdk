@@ -1,6 +1,7 @@
 {
   "name": "trello-powerup",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "homepage": "https://shaked-aharon.github.io/trello-powerup/",
   "description": "A TypeScript SDK for building Trello Power-Ups",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
