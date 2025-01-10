@@ -2,7 +2,7 @@
 
 A fully typed SDK for building Trello Power-Ups with TypeScript. This SDK provides a modern, type-safe way to create Trello Power-Ups with excellent IDE support and autocompletion.
 
-[![npm version](https://badge.fury.io/js/trello-powerup-typescript.svg)](https://www.npmjs.com/package/trello-powerup-typescript)
+[![npm version](https://badge.fury.io/js/trello-powerup.svg)](https://www.npmjs.com/package/trello-powerup)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Features
@@ -17,7 +17,7 @@ A fully typed SDK for building Trello Power-Ups with TypeScript. This SDK provid
 ## Installation
 
 ```bash
-npm install trello-powerup-typescript
+npm install trello-powerup
 ```
 
 ## Quick Start
@@ -25,7 +25,7 @@ npm install trello-powerup-typescript
 ### Initialize Your Power-Up
 
 ```typescript
-import { TrelloPowerUpBuilder } from 'trello-powerup-typescript';
+import { TrelloPowerUpBuilder } from 'trello-powerup';
 
 const powerUp = new TrelloPowerUpBuilder({
   appKey: 'YOUR_APP_KEY',
@@ -51,7 +51,7 @@ const powerUp = new TrelloPowerUpBuilder({
 ### Handle Popups
 
 ```typescript
-import { TrelloIFrame } from 'trello-powerup-typescript';
+import { TrelloIFrame } from 'trello-powerup';
 
 const iframe = new TrelloIFrame({
   appKey: 'YOUR_APP_KEY',
@@ -103,7 +103,7 @@ iframe.closePopup(): void;
 Here's a complete example of a Power-Up that adds priority badges and settings:
 
 ```typescript
-import { TrelloPowerUpBuilder, Badge, CardButton } from 'trello-powerup-typescript';
+import { TrelloPowerUpBuilder, Badge, CardButton } from 'trello-powerup';
 
 // Initialize the Power-Up
 const powerUp = new TrelloPowerUpBuilder({
